@@ -1,0 +1,43 @@
+% CUET CSE THESIS PROPOSAL REPORT FORMAT
+% @version     1.0
+
+% The document class
+\documentclass{cuetcsethesis}
+
+% Custom packages to include
+\input{resources/packages}
+% Total information regarding the thesis 
+
+\input{resources/thesis-details}
+
+% Adding a Bib resource file 
+\input{resources/bib-setup}
+
+% Adding a Abbreviation file
+\input{chapters/abbreviation}
+
+\begin{document}
+
+% start of document
+
+% Create the title page, which is two page in this format.
+\maketitle
+
+% Print out the table of tables and table of figures
+\thesisTables
+
+% start of thesis body
+\thesisBodyStart
+
+% Include the main thesis proposal text
+\input{chapters/body}
+
+% end of thesis body
+
+% Include CUGS Reference and Signature Page
+\CUGS
+
+% Print the references
+\printReferences
+
+\end{document}

@@ -1,0 +1,1042 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{multirow}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\begin{quote}
+Bachelor of Science in Computer Science \& Engineering
+\end{quote}
+
+\includegraphics[width=1.72778in,height=2in]{vertopal_bd799b015c154284be5e229bd9fcdfee/media/image1.png}
+
+\begin{quote}
+\textbf{Machine Learning Based Fraud Incident Classification and
+Assistance System for Bangladeshi E-Commerce Market}
+\end{quote}
+
+by
+
+Salman Farsi
+
+ID: 1804102
+
+\begin{quote}
+Department of Computer Science \& Engineering
+
+Chittagong University of Engineering \& Technology (CUET)
+\end{quote}
+
+Chattogram-4349, Bangladesh.
+
+25th July, 2023
+
+\begin{quote}
+\textbf{Chittagong University of Engineering \& Technology (CUET)
+Department of Computer Science \& Engineering}\\
+\textbf{Chattogram-4349, Bangladesh.}
+
+Thesis Proposal\\
+Application for the Approval of B.Sc. Engineering Thesis/Project
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule()
+\multirow{2}{*}{\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\textbf{Student Name ID}
+
+\textbf{Supervisor Name Designation}
+
+\textbf{Department Program}
+\end{quote}
+
+\textbf{Tentative Title}
+\end{minipage}} & \begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+: Salman Farsi : 1804102
+\end{quote}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Session : 2021-2022
+\end{minipage} \\
+&
+\multicolumn{2}{>{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.6667} + 2\tabcolsep}@{}}{%
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+: Dr. Mahfuzulhoq Chowdhury\\
+: Associate Professor\\
+Department of Computer Science \& Engineering
+
+: Computer Science \& Engineering : B.Sc. Engineering
+
+\textbf{: Machine Learning Based Fraud Incident Classification and
+Assistance System for Bangladeshi E-Commerce Market}
+\end{quote}\strut
+\end{minipage}} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{Table of Contents}
+
+\textbf{List of Figures} \textbf{ii}
+
+\textbf{List of Abbreviations} \textbf{iii}
+
+1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. 1
+
+2 Background and Present State . . . . . . . . . . . . . . . . . . . . 2
+
+3 Specific Objectives and Possible Outcomes . . . . . . . . . . . . . 5
+
+4 Outline of Methodology . . . . . . . . . . . . . . . . . . . . . . . 6
+
+4.1 Data Collection . . . . . . . . . . . . . . . . . . . . . . . . 6
+
+4.2 Data Preprocessing . . . . . . . . . . . . . . . . . . . . . . 7
+
+4.3 Feature Selection . . . . . . . . . . . . . . . . . . . . . . . 8
+
+4.4 Dataset Labeling . . . . . . . . . . . . . . . . . . . . . . . 8
+
+4.5 Train-Test-Split . . . . . . . . . . . . . . . . . . . . . . . . 8
+
+4.6 Training the Model . . . . . . . . . . . . . . . . . . . . . . 8
+
+4.7 Model Evaluation . . . . . . . . . . . . . . . . . . . . . . . 9
+
+4.8 Parameter Tuning of the Model . . . . . . . . . . . . . . . 9
+
+4.9 Choosing the Best Model . . . . . . . . . . . . . . . . . . . 10
+
+4.10 Final Classification . . . . . . . . . . . . . . . . . . . . . . 10
+
+4.10.1 Seller Sided Fraud Class . . . . . . . . . . . . . . 10
+
+4.10.2 Customer Sided Fraud Class . . . . . . . . . . . . 10
+
+5 Android Application . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+
+6 Required Resources . . . . . . . . . . . . . . . . . . . . . . . . . .
+13
+
+6.1 Hardware Resources . . . . . . . . . . . . . . . . . . . . . 13
+
+6.2 Software Resources . . . . . . . . . . . . . . . . . . . . . . 13
+
+7 Cost Estimation . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. 13
+
+7.1 Time Management . . . . . . . . . . . . . . . . . . . . . . 14
+\end{quote}
+
+\textbf{i}
+
+\begin{quote}
+\textbf{List of Figures}
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+4.1
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Process flow diagram of the proposed methodology
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+. . . . . . . .
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+7
+\end{minipage} \\
+\midrule()
+\endhead
+5.2 &
+\multicolumn{2}{>{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.5000} + 2\tabcolsep}}{%
+Process flow diagram of the customer interface . . . . . . . . . . .} &
+11 \\
+5.3 &
+\multicolumn{2}{>{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.5000} + 2\tabcolsep}}{%
+Process flow diagram of the seller interface . . . . . . . . . . . . .}
+& 12 \\
+7.4 &
+\multicolumn{2}{>{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.5000} + 2\tabcolsep}}{%
+Gantt chart of time management. . . . . . . . . . . . . . . . . . .} &
+14 \\
+\bottomrule()
+\end{longtable}
+
+\textbf{ii}
+
+\begin{quote}
+\textbf{List of Abbreviations}
+
+\textbf{ANN} Artificial Neural Network. 3, 8--10\\
+\textbf{AUC} Area Under Curve. 4\\
+\textbf{CNN} Convolutional Neural Network. 4\\
+\textbf{DT} Decision Tree. 3, 4, 8\\
+\textbf{KNN} K-Nearest Neighbor. 4, 8\\
+\textbf{LGBM} Light Gradient Boosting Machine. 4, 8--10 \textbf{LR}
+Logistic Regression. 3, 4, 8\\
+\textbf{LSTM} Long Short-Term Memory. 4\\
+\textbf{ML} Machine learning. 3, 8, 9\\
+\textbf{RF} Random Forest. 3, 4, 8--10\\
+\textbf{ROC} Reciever Operating Characteristics. 4\\
+\textbf{SVM} Support Vector Machine. 3, 8--10\\
+\textbf{XGBM} Extended Gradient Boosting Machine. 8--10
+\end{quote}
+
+\textbf{iii}
+
+\begin{quote}
+\textbf{1 Introduction}
+
+E-commerce sites are currently alternatives to brick-and-mortar shops
+for pur-chasing goods by sitting at home. During the Coronavirus
+Pandemic, this trend of shopping has increased more rapidly throughout
+the whole world. Because of the growth in e-commerce business, there are
+many fraudulent activities occurring in this industry. While it does
+happen occasionally that buyers commit fraud, it also happens more
+frequently when the seller commits fraud too. So, the nature of the
+fraudulent activities are bidirectional. Customers that commit fraud
+fre-quently do so in a variety of ways, including using stolen
+identities, credit cards, stealing refunds, and engaging in friendly
+fraud{[}1{]}{[}2{]}.On the other hand, the seller fraud issue is
+currently another major worry for the e-commerce consumer. Like the
+buyer, the seller has various opportunities to commit fraud. They can
+commit affiliate fraud, no-delivery fraud, counterfeit product fraud,
+triangulation fraud, and inventory fraud{[}2{]}.
+
+With a forecasted turnover of US 7,520.3 million dollars by 2023,
+Bangladesh acquired the 36th biggest worldwide marketplace for
+e-commerce, surpassing Peru{[}3{]}. The Bangladeshi e-commerce market is
+anticipated to develop by 13.1\% in 2023, contributing to global growth
+at a rate of 9.6\% in the same year{[}3{]}. However, amidst this booming
+growth, there have been some concerning in-cidents of online scams.
+E-Valy, for instance, has been involved in one of the biggest online
+business scams in Bangladesh, owing Tk. 500 crore{[}4{]} to its
+cus-tomers, according to the central bank's suggestion. Additionally,
+the E-orange Scam amounted to Tk. 1,100 crore{[}5{]}.On the contrary,
+according to reports {[}6{]}, small to medium-sized e-commerce platforms
+see a lot of client fraud concerns in Bangladesh. Customers giving fake
+shipping addresses when paying by cash on delivery is a common problem
+that bothers retailers. Furthermore, certain customers raise baseless
+claims about product defects, seeking unwarranted re-funds, thereby
+causing financial losses to retailers. These occurrences underscore the
+urgency of implementing robust fraud detection systems from the seller's
+per-spective, while simultaneously devising strategies to tackle
+customer-side fraud.
+\end{quote}
+
+\textbf{1}
+
+\begin{quote}
+The goal of this research is to create a system based on machine
+learning that is capable of predicting the likelihood of fraud
+victimization for both customers and sellers independently. This system
+will classify the various types of fraud faced by individuals, such as
+no-delivery fraud, counterfeit product fraud, inventory fraud, and
+affiliate fraud on the seller's side. And identity theft, credit card
+fraud, and friendly fraud on the customer's side. This system will
+possibly be able to de-termine whether a fraud occurrence is genuine or
+not and, if confirmed, categorize the specific type of fraud to assist
+relevant authorities in taking appropriate and legitimate actions, with
+the user's consent.
+
+Expanding the survey's participant pool to include a wider demography
+and maintaining its thorough coverage is one of the main difficulties of
+this study. Customers and sellers might not be able to immediately say
+if they have been the victim of fraud, therefore the dataset must be
+labeled while consulting fraud specialists to assure correctness and
+dependability. A variety of outreach tactics will be utilized to involve
+diverse people from varied backgrounds and areas in order to address the
+problem of boosting survey participation. This will make it possible to
+collect a thorough dataset that fairly represents the larger population.
+
+The development of such a system might greatly minimize the instances of
+fraud in the e-commerce sector, promoting safer and more smooth growth
+for the business. The technology can boost confidence amongst buyers and
+sellers by successfully recognizing and preventing fraud, which will
+encourage more people to participate in online transactions and raise
+trust in e-commerce platforms as a whole leading to increased economic
+activity and growth.
+
+\textbf{2 Background and Present State}
+
+There are several research studies were made to detect various types of
+fraud in online marketplaces. Some of those are discussed in this part.
+
+In the paper {[}7{]}, the authors presented a product-oriented fraud
+prediction method by taking into account a number of characteristics
+when a consumer buys a product from an online store. They gathered the
+important customer, product,
+\end{quote}
+
+\textbf{2}
+
+\begin{quote}
+and seller attributes and issues through survey questionnaires given to
+the custom-ers. They assessed their models using several performance
+criteria and discovered that certain ML models performed better in
+various metrics. Nevertheless, Cat-Boost had the best accuracy (93.28\%)
+when there was no feature selection tech-nique used, while SVM provided
+93.09\% accuracy when Extra Tree Classifier was used to choose features.
+However, the author in this paper overlooked some very crucial elements
+that could have improved the model, such as seller badge or rating,
+seller's offline outlet availability, product guarantee or warranty,
+buyer awareness of online fraud schemes, buyer caution regarding
+security, etc. As the customer confirms the fraud instance as their
+target variable when it may not have occurred at all, this research
+introduced bias into the dataset.
+
+In the paper {[}8{]}, a method for detecting seller or merchant fraud in
+an e-commerce platform was suggested. When analyzing and identifying
+merchant fraud on a dataset, the authors employed RF, DT, and LR
+algorithms based on multiple vari-ables related to the seller and
+customer. By using Random Forest, they achieved the maximum accuracy of
+84\%. The study doesn't explain clearly how the buyer purchase behavior
+was also utilized to determine if the seller was fraudulent or not, and
+the paper also didn't explain the usefulness of some seller features as
+no feature extraction was done.
+
+In the paper {[}9{]}, the authors applied several Artificial Neural
+Network methods for the detection of online transaction fraud using
+various learning techniques, such as applying backpropagation, steepest
+descent as the first order method of learn-ing, and quick propagation,
+Gauss-Newton as the second order learning method. Among all the models,
+the backpropagation model had the highest accuracy 96\%. The limitation
+of this paper is that the author didn't generalize what types of fraud
+the seller encountered from the customer side and for the dataset
+containing a large number of training examples any analysis on the
+computational complexity of their proposed ANN was not explained through
+their method. Based on their feature-engineered dataset, this paper
+didn't investigate further ML techniques or variables that can influence
+fraud detection in e-commerce transactions.
+
+In the paper {[}10{]}, the authors concluded that machine learning
+algorithms can be
+\end{quote}
+
+\textbf{3}
+
+\begin{quote}
+effectively used to find fake e-commerce cashback transactions in
+Indonesia. The authors used KNN, CNN, and LSTM algorithms to detect
+fraud and found that the KNN algorithm performed the best with an
+accuracy of 83.82\%. The research paper offers valuable insights into
+the advantages of employing machine learning classification for the
+detection of cashback fraud and suggests steps that can be taken to
+prevent fraudulent activities in the future. The study was conducted
+using transaction data from only one e-commerce platform in Indonesia,
+which may limit the generalizability of the findings to other platforms
+or countries. The relation between cashback fraud and other similar
+types of fraud like counterfeit product fraud was not addressed.
+
+The paper {[}11{]}, focused on predicting identity theft victimization
+and identi-fying key predictors of identity theft using survey
+data.Three machine learning algorithms, namely LR, DT, and RF, were
+employed for analysis. The study eval-uated the efficacy of these
+algorithms based on criteria like overall correct classi-fication
+percentage, ROC, AUC, and feature criticality.By aggregating data, the
+paper maximized the number of variables and cases available for
+analysis. The findings suggest that machine learning algorithms can
+effectively predict iden-tity theft victimization and identify
+significant predictors of identity theft.The limitation of this study is
+that it does not consider the impact of demographic factors such as race
+and gender on identity theft victimization. The study does not examine
+the effectiveness of preventive measures against identity theft.
+
+The authors of paper {[}12{]}, suggested an ingenious approach for
+identifying credit card fraud utilizing an improved LGBM. The technique
+successfully identified fraudulent transactions with a high degree of
+accuracy, achieving the best res-ults in terms of accuracy at 98.40\%.
+While AUC was 92.88\% and Precision was 97.34\%. F1-score, however, was
+just 56.95\%. The method used a Bayesian-based hyperparameter algorithm
+for optimization to tune each parameter of the ma-chine. The efficacy of
+the suggested strategy for real-time fraud detection system, any
+investigation is not covered. Apart from the Bayesian-based
+hyperparameter optimization technique, exploring the use of other
+optimization algorithms to tune the hyperparameters of the LightGBM
+algorithm could increase the F1-score overall but no comparison was made
+on that.
+\end{quote}
+
+\textbf{4}
+
+\begin{quote}
+The study {[}13{]} primarily investigated online shopping fraud and its
+focus on cus-tomer behavior and preventive actions. It relied on
+secondary survey data to ana-lyze how individuals protect themselves
+from online shopping fraud. The research underlined the significance of
+enhancing prevention advice for online shoppers to mitigate the risk of
+fraud. The findings indicated that many respondents do not implement
+appropriate measures to reduce their risk during online shopping,
+un-derscoring the need for improved online safety guidance. However, one
+limitation of the study is the lack of insights from individuals who
+have experienced online shopping fraud, which could have provided
+valuable input for devising effective prevention strategies.
+
+In conclusion, It can be said that for classifying a specific form of
+fraudulent incident out of all, no study has been done yet on the
+privilege of fraud prevention. Besides no research was done which worked
+on both the customer and seller by incorporating several of their
+attributes and transaction behavior to predict whether they actually
+became the victim of a fraudulent incident or not. Hence this study will
+focus on these issues that are missing and making an overall prediction
+system that is helpful for both seller and customer in taking action
+based on the type of fraud victim they are.
+
+\textbf{3 Specific Objectives and Possible}
+
+\textbf{Outcomes}
+
+The main objectives of this work are as follows:
+
+1. To collect datasets from customers and sellers using survey-based
+question-naires, by ensuring a wider demographic coverage of fraudulent
+incidents.
+
+2. To develop a machine learning model capable of predicting the
+likelihood of e-commerce users falling victim to fraud and classifying
+the specific type of fraudulent case each individual has encountered.
+
+3. To develop an Android application that serves as a unified platform
+for customers and sellers to communicate and settle unsatisfactory
+transactions
+\end{quote}
+
+\textbf{5}
+
+\begin{quote}
+effectively.
+
+4. To enable users to take legal action against fraud incidents,
+providing facil-ities for both sellers and customers to report fraud
+types predicted by the proposed model to the appropriate legal
+authorities, supported by essential evidence.
+
+\textbf{4 Outline of Methodology}
+
+The primary aim of this study is to develop a model that can accurately
+classify the fraud incident type for both seller and customer separately
+based on a range of customer and seller features. To illustrate the
+functionality of this proposed model, a visual representation is
+provided in figure 4.1. This model holds the potential to significantly
+enhance fraud verification and classification, leading to a more secure
+and trustworthy e-commerce environment.
+
+\textbf{4.1 Data Collection}
+
+For the dataset, survey-based questionnaires will be taken from both the
+customer and seller independently focusing on the general demographic
+information, fraud awareness, and knowledge, product features, several
+seller's or customer's charac-teristics, payment method, and possible
+fraud occurrence-related information {[}14{]} {[}15{]}. Here two
+datasets will be collected through several questionnaires on the
+customer and seller separately. In the customer dataset, the possible
+features of the dataset will be age, gender, occupation, education
+level, online fraud scheme knowledge, date of purchase, purchased
+product type, product discount, care-fulness about product
+specification, product price, acknowledging seller review and rating,
+seller's shop age, payment method, the problem of the product, what
+fraud occurred, evidence of defective product, etc. On the other hand,
+in the seller dataset, the possible features of the dataset will be the
+seller's shop age, average revenue per year, knowledge of fraud scheme,
+fraud scheme in action, buyer information check, fraud incident-related
+information, and other relevant features regarding the fraudulent
+scenario.
+\end{quote}
+
+\textbf{6}
+
+\begin{quote}
+\includegraphics[width=6.27917in,height=6.25556in]{vertopal_bd799b015c154284be5e229bd9fcdfee/media/image2.png}
+\end{quote}
+
+Figure 4.1: Process flow diagram of the proposed methodology
+
+\begin{quote}
+\textbf{4.2 Data Preprocessing}
+
+Since the data was gathered through a survey, preprocessing is necessary
+before-hand. In order to preprocess the data, it should be first checked
+to see whether any record has an empty cell or not. For the sake of this
+situation, it will be supposed that the answer to that question is not
+applicable to that respondent when the response is categorical. But for
+continuous values like the price of the product, discounted percentage,
+or cashback amount offered, the mean value will be taken in place of the
+empty cell. Finally, to convert the categorical variables into numerical
+values, One Hot Encoding {[}10{]} will be used. On the contrary, for
+\end{quote}
+
+\textbf{7}
+
+\begin{quote}
+binary variables, Label Encoding will be used.
+
+\textbf{4.3 Feature Selection}
+
+To analyze the substantially contributing features, three algorithms
+will be used to pick the features. Pearson Correlation, Chi-Square
+Technique {[}10{]}, and Light-GBM {[}12{]} are the feature selection
+techniques that will be employed. After every feature that passes the
+three algorithms' test, will be collected and a vote will be made to
+decide which features could be used in this task to train the model.
+
+\textbf{4.4 Dataset Labeling}
+
+Each data point will be labeled by assigning the appropriate fraud
+category based on the user responses. To label the dataset, consultation
+with fraud experts is needed. This will be the target variable or class
+labels for the proposed machine learning model.
+
+\textbf{4.5 Train-Test-Split}
+
+The dataset will be split into three sets. The first one is training,
+the second one is testing, and the final one is validation set. The
+machine learning model will be trained using the training set. The
+constructed model will then be assessed on the set used for validation
+to determine how well it performs after being trained on the set for
+training. Based on the performance of the validation set, the model's
+hyperparameters{[}16{]}, which govern how it behaves during training,
+may be modified to enhance generalization. The performance of the
+testing set will then be assessed. The test set will be utilized to
+assess the ML model's ultimate performance following all training and
+fine-tuning procedures.
+
+\textbf{4.6 Training the Model}
+
+For this research work, several machine learning models such as LR,
+SVM,RF, DT, XGBM, LGBM, KNN and ANN are chosen initially. As seen by
+several previous works, these are performing better in predicting both
+binary and mul-tiple classes {[}7{]} {[}9{]} {[}12{]}. The reason for
+using tree ensemble methods DT, RF,
+\end{quote}
+
+\textbf{8}
+
+\begin{quote}
+XGBM and LGBM is that in paper {[}7{]} the authors found better results
+with tree ensemble method for questionnaires dataset which heavily
+contained binary values in the feature. On the other hand, in one of the
+fraud detection paper {[}9{]} ANN outperform others. In the paper
+{[}10{]}, the authors got higher accuracy by KNN in predicting cashback
+fraud transactions. As the study suggests {[}16{]}, by fine-tuning the
+hyperparameters of the decision tree algorithm, such as adjusting the
+tree's maximum depth, minimum samples per leaf, and splitting criteria,
+the performance on a dataset primarily composed of binary values (0 or
+1) can be enhanced. Random Forest can effectively handle class
+imbalances since each tree is trained on a different subset of data,
+making it more likely to capture pat-terns in minority classes. So, in
+the case of an imbalanced dataset, the uses of RF will probably give a
+more accurate classification {[}16{]}. In the paper {[}17{]}, by
+applying the different kernel tricks and parameter tuning, the authors
+effectively used SVM to get higher accuracy. All of these scenarios
+suggested that the use of the aforementioned ML model for this work may
+provide better performance and the necessary changes in the model by
+parameter tuning will give a performance boost.
+
+\textbf{4.7 Model Evaluation}
+
+For the model evaluation, all the ML models that will be used in this
+study can be compared by several scores like accuracy, recall,
+precision, and F1 score. After the comparison, the best model will be
+chosen for final prediction and further deployment in the Android
+application.
+
+\textbf{4.8 Parameter Tuning of the Model}
+
+If the models' performance is not satisfactory then the hyperparameter
+tuning {[}7{]} will be done by changing several parameters of each model
+to get the best accuracy from the model. Also by observing the bias and
+variance issue, necessary steps will be taken to improve the model until
+a desired result is achieved. Grid search may be used to create a grid
+of possible hyperparameter values, and the procedure of tuning assesses
+how well the model performs for each set of possible hyperparameters.
+Besides Random Search and Bayesian optimization can also
+\end{quote}
+
+\textbf{9}
+
+\begin{quote}
+be done to optimize models like SVM, RF, XGBM, LGBM, and ANN. Changing
+several activation values in the ANN along with the addition of several
+layers is another way that will be used in the experiment of getting
+higher performance.
+
+\textbf{4.9 Choosing the Best Model}
+
+In order to choose the best model, the F1 score will be considered
+because it confirms that the model is classifying the classes well. In
+particular scenarios, where there is an imbalance between the classes, a
+higher F1 score will provide greater details about classified and
+miss-classified classes.
+
+\textbf{4.10 Final Classification}
+
+The best model will be used for the final prediction and for taking the
+user input to predict the fraudulent class. The class will be different
+for the buyer and seller since the models will be run individually for
+both buyer and seller. The understanding of these types of fraud came
+through background reading {[}1{]} {[}2{]} {[}12{]} {[}7{]}.
+
+\textbf{4.10.1 Seller Sided Fraud Class}
+
+• No Fraud Occurred
+
+• Affiliate fraud
+
+• No-delivery fraud
+
+• Counterfeit product fraud
+
+• Triangulation fraud
+
+• Inventory fraud
+
+\textbf{4.10.2 Customer Sided Fraud Class}
+
+• No Fraud Occurred
+
+• Credit card fraud
+
+• Identity theft
+\end{quote}
+
+\textbf{10}
+
+\begin{quote}
+• Account Takeover Fraud\\
+• Price Manipulation\\
+• Friendly Fraud
+
+\textbf{5 Android Application}\\
+An Android application will be developed to enable the user to see what
+type of fraudulent incident they have encountered and to check the
+validity of their allegation. There are several other features that will
+eventually be included in the application so that it becomes more
+user-friendly and effective. The process flow diagram of the proposed
+Android application is shown in figure 5.2 and 5.3.
+
+\includegraphics[width=5.13889in,height=5.60694in]{vertopal_bd799b015c154284be5e229bd9fcdfee/media/image3.png}
+\end{quote}
+
+Figure 5.2: Process flow diagram of the customer interface
+
+\textbf{11}
+
+\begin{quote}
+\includegraphics[width=4.56667in,height=5.20555in]{vertopal_bd799b015c154284be5e229bd9fcdfee/media/image4.png}
+\end{quote}
+
+Figure 5.3: Process flow diagram of the seller interface
+
+\begin{quote}
+• The app will allow the user to complain about their issues to the
+registered seller before taking legal action.
+
+• The user can directly chat with the seller after the complaint is
+submitted so that they can clarify the issue among themselves.
+
+• If the seller doesn't hear to the customer's allegation by providing
+necessary details and answering questionnaires they will be able to see
+what type of fraud has occurred with them.
+
+• Based on the prediction they can directly submit legal action to
+police or relevant authority. In the dashboard, the customer can see his
+action history and status.
+
+• As soon as the action is taken, a notification will be sent to the
+seller. And a complaint ID will be assigned.
+\end{quote}
+
+\textbf{12}
+
+\begin{quote}
+• But if the issue is resolved, then both the customer and seller will
+confirm it, and in the dashboard of both the customer and seller it will
+be shown as a resolved issue.
+
+\textbf{6 Required Resources}
+
+\textbf{6.1 Hardware Resources}\\
+• Personal Computer\\
+• Android Device
+
+\textbf{6.2 Software Resources}\\
+• OS: Windows 10\\
+• Tools: Anaconda, Visual Studio, Flutter, Firebase, Google Map API•
+Libraries: Tensorflow, Keras, Numpy, Pandas, Matplotlib, Sklearn•
+Programming Language: Python, Drat
+
+\textbf{7 Cost Estimation}\\
+The cost estimation of this research work is given below. This cost
+estimation may need to be changed to the requirements.
+
+a. Cost of Data Collection :
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+• Internet Cost• Survey Cost
+\end{quote}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+Tk 2000\\
+Tk 50000
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+Total
+\end{quote}
+\end{minipage} & Tk. 52000 \\
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+b. Cost of Materials :
+
+• Hardware Equipments Tk 100000• Softwares Tk 25000
+\end{quote}
+
+\textbf{13}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+Total
+\end{quote}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Tk. 125000
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+c. Drafting \& Binding :
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule()
+\multicolumn{2}{@{}>{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.6667} + 2\tabcolsep}}{%
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+• Paper\\
+• Drafting\\
+• Printing\\
+• Binding
+\end{quote}\strut
+\end{minipage}} & \begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+Tk 500\\
+Tk 1000\\
+Tk 1000\\
+Tk 500
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\multicolumn{2}{@{}>{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.6667} + 2\tabcolsep}}{%
+\begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+Total\\
+Miscellaneous
+\end{quote}\strut
+\end{minipage}} & \begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+Tk. 3000\\
+Tk. 1000
+\end{quote}\strut
+\end{minipage} \\
+\multicolumn{2}{@{}>{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.6667} + 2\tabcolsep}}{%
+\begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+Grand Total
+\end{quote}
+\end{minipage}} & \multirow{2}{*}{Tk. 181000} \\
+\begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+\textbf{7.1}
+\end{quote}
+\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
+\begin{quote}
+\textbf{Time Management}
+\end{quote}
+\end{minipage} \\
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+Gantt Chart for the entire timeline from the beginning of the thesis to
+the end is
+
+added here.
+
+\includegraphics[width=5.13889in,height=2.79028in]{vertopal_bd799b015c154284be5e229bd9fcdfee/media/image5.png}
+\end{quote}
+
+Figure 7.4: Gantt chart of time management.
+
+\textbf{14}
+
+\begin{quote}
+\textbf{CSE Undergraduate Studies (CUGS) Committee}
+
+\textbf{Reference :}
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\textbf{Meeting No :}
+\end{quote}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Resolution No :}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Date :}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\textbf{Signature of the Student}
+
+\textbf{Signature of the Supervisor}
+
+\textbf{Signature of the Head of the Department}
+
+\begin{quote}
+\textbf{References}
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+{[}1{]}
+
+{[}2{]}
+
+{[}3{]}
+
+{[}4{]}
+
+{[}5{]}
+
+{[}6{]}
+
+{[}7{]}
+
+{[}8{]}
+
+{[}9{]}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+Richard, \emph{E-COMMERCE FRAUDS -- COMMON TYPES AND PREVEN-TION TIPS},
+
+Francesca, \emph{The Complete Guide to Ecommerce Fraud Prevention},,
+{[}Online; vis
+
+\emph{eCommerce market in Bangladesh},, {[}Online; visited on 5th Jul
+
+\emph{The rise and fall of Evaly},,
+\end{quote}
+
+S. Islam, \emph{TK 1,100cr Eorange Scam: Blame-shifting fails},
+
+\begin{quote}
+Q. T. Islam and N. I. Saeed, \emph{E-commerce in Bangladesh: prospects
+and challenges},
+
+M. Sabih \emph{et al.}, `Fraud prediction in pakistani e-commerce
+market,' in \emph{2021 4th International Symposium on Advanced
+Electrical and Communication Technologies (ISAECT)}, 2021, pp. 01--06.
+doi: (cit. on pp. 2, 8--10).
+
+F. Hasan, S. K. Mondal, M. R. Kabir, M. A. Al Mamun, N. S. Rahman and M.
+S. Hossen, `E-commerce merchant fraud detection using machine learning
+approach,' in \emph{2022 7th International Conference on Communica-tion
+and Electronics Systems (ICCES)}, 2022, pp. 1123--1127. doi: (cit. on p.
+3).
+
+S. Alqethami, B. Almutanni and M. AlGhamdi, `Fraud detection in
+e-commerce,' \emph{International Journal of Computer Science \& Network
+Security}, vol. 21, no. 6, pp. 312--318, 2021 (cit. on pp. 3, 8, 9).
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\textbf{16}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+{[}10{]}
+
+{[}11{]}
+
+{[}12{]}
+
+{[}13{]}
+
+{[}14{]}
+
+{[}15{]}
+
+{[}16{]}
+
+{[}17{]}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+B. Karunachandra, N. Putera, S. R. Wijaya, D. Suryani, J. Wesley and Y.
+Purnama, `On the benefits of machine learning classification in cashback
+fraud detection,' \emph{Procedia Computer Science}, vol. 216, pp.
+364--369, 2023, 7th International Conference on Computer Science and
+Computational In-telligence 2022, issn: 1877-0509. doi: (cit. on pp. 3,
+7--9
+
+X. Hu, X. Zhang and N. Lovrich, `Forecasting identity theft victims:
+Ana-lyzing characteristics and preventive actions through machine
+learning ap-proaches,' \emph{Victims} \emph{Offenders}, vol. 16, pp.
+465--494, Apr. 2021. doi: (cit. on p. 4).
+
+A. A. Taha and S. J. Malebary, `An intelligent approach to credit card
+fraud detection using an optimized light gradient boosting machine,'
+\emph{IEEE Access}, vol. 8, pp. 25 579--25 587, 2020. doi: (cit. on pp.
+4, 8, 10).
+
+J. Whittaker, M. Edwards, C. Cross and M. Button, `"i have only checked
+after the event": Consumer approaches to safe online shopping,'
+\emph{Victims and Offenders}, pp. 1--23, Oct. 2022. doi:(cit. on p. 5).
+
+C. Cross, M. Edwards, M. Button and J. Whittaker, \emph{Online shopping
+fraud victimisation in Australia},
+
+M. Zeng, H. Cao, M. Chen and Y. Li, `User behaviour modeling,
+recom-mendations, and purchase prediction during shopping festivals,'
+\emph{Electronic Markets}, vol. 29, Sep. 2018. doi: (cit. on p. 6).
+
+I. Sarker, `Machine learning: Algorithms, real-world applications and
+re-search directions,' \emph{SN Computer Science}, vol. 2, Mar. 2021.
+doi: (cit. on pp. 8, 9).
+
+V. Blanco, A. Japón and J. Puerto, `Optimal arrangements of hyperplanes
+for svm-based multiclass classification,' \emph{Advances in Data
+Analysis and Classification}, vol. 14, Jul. 2019. doi:(cit. on p. 9).
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\textbf{17}
+
+\end{document}
