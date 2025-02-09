@@ -1,0 +1,98 @@
+Introduction:
+Obesity is a major health concern affecting over 890 million adults globally, increasing risks for conditions like diabetes, heart disease, and certain cancers.
+
+Similarly, being underweight can lead to weakened immunity, developmental issues, and higher susceptibility to infections
+
+These are often caused by a combination of genetic, physiological, and lifestyle factors.
+
+These combined issues highlight the need for solutions that support healthy weight management.
+
+
+
+Underweight:
+Used CatBoost to predict obesity in overweight adults.
+Used Body measurements and demographics for prediction
+Accuracy is 87%
+
+Limitation:
+Did not consider individual's with underweight
+Did not consider lifestyle factors
+
+
+Only Logistic regression:
+Developed a logistic regression model to predict obesity in 10-year-olds.
+Incorporated physical activity, eating habits, and maternal characteristics.
+Used LASSO for feature selection.
+Model accuracy: 76%
+limitations:
+Only logistic regression was used
+Low accuracy
+No recommendations
+
+NO multi level:
+Used XGBoost for obesity classification in young Chileans.
+Used biochemical data for classification.
+Achieved AUC of 0.818.
+
+Limitations:
+ Ignored lifestyle factors.
+ Did not considered detailed obesity levels.
+ 
+ 
+ No lifestyle factor recommendation:
+ diet recommendations, focusing on fluid, carbohydrate, protein, and fat intake
+ 
+ 
+ [4]
+Analyzed metabolic factors affecting BMI and obesity
+ Accuracy:72% for males,76% for females .
+ Limitations:
+ ignored lifestyle factors
+ low accuracy
+ 
+ 
+ 
+ 
+ Objectives:
+ • To identify key factors associated with both underweight and obesity, and prepare
+a dataset.
+• To develop a classification system that classifies weight into 5 categories using
+current physical conditions and lifestyle factors.
+• To select the best performing machine learning model for predicting weight cat-
+egory by fine-tuning hyperparameters to achieve better accuracy.
+• To use Explainable AI for highlighting the main features contributing to the pre-
+diction of weight category and provide personalized recommendations for users
+to improve their health outcomes.
+• To develop a mobile app that predicts weight category, highlights key factors
+influencing the prediction, and offers personalized health recommendations.
+
+
+
+
+
+methodology:
+The main objective of my work is to develop a machine learning model that predicts obesity risk by identifying key physical and lifestyle factors. It will also provide personalized recommendations to improve health outcomes.
+
+The system consists of two sections which are described below
+
+
+
+Conclusion:
+A dataset will be developed to include essential physical and lifestyle factors for accurate obesity risk prediction.
+A machine learning model will be developed to classify weight categories effectively.
+Explainable AI techniques will be implemented to provide personalized recommendations based on individual predictions.
+
+
+
+Motivation:
+Obesity and underweight are serious health issues affecting millions of people.
+There is a need for solutions to identify those at risk and provide personalized advice.
+This study uses machine learning to analyze lifestyle and health factors, helping users make better choices.
+By focusing on both overweight and underweight conditions, we aim for a complete approach to health management.
+
+
+
+Application:
+Personalized Healthcare: Assesses obesity risk using lifestyle factors for tailored healthcare advice.
+Public Health Campaigns: Identifies at-risk populations to guide obesity prevention initiatives.
+Telemedicine Integration: Offers real-time obesity risk assessments to improve remote healthcare services.
